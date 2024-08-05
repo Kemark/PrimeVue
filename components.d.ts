@@ -9,5 +9,6 @@ declare module 'vue' {
   export interface GlobalComponents {
     Card: typeof import('./src/components/Card.vue')['default']
     InputText: typeof import('primevue/inputtext')['default']
+    PassThrough: typeof import('./src/components/PassThrough.vue')['default']
   }
 }

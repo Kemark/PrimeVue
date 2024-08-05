@@ -10,7 +10,7 @@ const msg = ref('');
     <h1>Playground</h1>
     <InputText v-model="msg" />
     <p>{{ msg }}</p>
-    <dd-card isClickabl></dd-card>
+    <dd-card isClickabl title="new title"></dd-card>
   </main>
 </template>
 
