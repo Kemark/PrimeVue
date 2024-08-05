@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
+import DdCard from '@/components/Card.vue';
 
 const msg = ref('');
 </script>
@@ -9,6 +10,7 @@ const msg = ref('');
     <h1>Playground</h1>
     <InputText v-model="msg" />
     <p>{{ msg }}</p>
+    <dd-card isClickabl></dd-card>
   </main>
 </template>
 
